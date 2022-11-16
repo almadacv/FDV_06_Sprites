@@ -3,7 +3,7 @@
 1. Para mover al personaje, se adaptaron códigos creados previamente. Al ser un Sprite 2D, ejecutamos el método de _Flip_ al Sprite cuando cambia el Input, juntos cambia la animación entre De _Idle_ y _Walking_.
 Para realizar el salto, aplicamos una fuerza al RigidBody, para evitar que el salto quede indefinido, creamos una variable `IsOnFloor` que cambia de verdadero a falso si el personaje no está en contacto con el GameObject con la etiqueta _Floor_.
 
-    -mover el personaje:
+    - mover el personaje:
 
     ```C#
     HorInput = Input.GetAxis("Horizontal") * SpeedMov;
@@ -68,7 +68,8 @@ Para realizar el salto, aplicamos una fuerza al RigidBody, para evitar que el sa
         }
     ```
 
-    ![Sprites - Parmetros da animaçao](https://github.com/almadacv/FDV_06_Sprites/blob/master/Gif/Animator.png)
+    ![Sprites - Parmetros da animaçao](https://github.com/almadacv/FDV_06_Sprites/blob/main/Gif/Animator.png)
+    
 
     - zombie con animación muerta:
 
