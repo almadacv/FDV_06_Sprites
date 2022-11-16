@@ -33,7 +33,7 @@ Para realizar el salto, aplicamos una fuerza al RigidBody, para evitar que el sa
             }
     ```
 
-    - Movimiento de Salto:
+    - Movimiento sin Salto:
 
     ![Sprites - Movimento sem Salto](https://github.com/almadacv/FDV_06_Sprites/blob/main/Gif/Zombie_walk.gif)
 
